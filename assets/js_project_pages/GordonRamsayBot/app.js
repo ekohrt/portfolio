@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(){
 				</div>
 				<div>
 					<button @click="handleInput('...')">😡😠</button>
-					<button @click="handleInput('yes chef!')">Next Step</button>
+					<button @click="handleInput('yes chef!')">yes chef!</button>
 				</div>
 
 
