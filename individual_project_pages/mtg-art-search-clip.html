@@ -72,13 +72,13 @@
 			<div class="container text-center">
 				<div id="fh5co-logo">
 					<h1 style="font-family: 'Times New Roman'; font-size: 15vh;">Ethan Kohrt</h1>
-					<h3 style="font-family: 'Times New Roman'; font-size: 4vh;">Data Scientist & Machine Learning Engineer</h3>
+					<h3 style="font-family: 'Times New Roman'; font-size: 4vh;">Creative Software Engineer</h3>
 					<!-- <a href="index.html"><img src="images/logo.png" alt="Present Free HTML5 Bootstrap Template"></a> -->
 				</div>
 				<nav>
 					<ul>
-						<li><a href="../about.html">About</a></li>
 						<li><a href="../index.html">Projects</a></li>
+						<li><a href="../about.html">About</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -87,17 +87,27 @@
 
 		<div class="page-content">
 			<h1 class="mb0">Artwork Search Engine with CLIP</h1>
-			<div class="meta"><span><a href="https://github.com/ekohrt/environmental-qa-system" target="_blank" rel="noopener noreferrer">Github Link</a></span></div>
+			<div class="meta"><span><a href="https://github.com/ekohrt/environmental-qa-system" target="_blank" rel="noopener noreferrer">Github Link</a> | <a href="https://github.com/ekohrt/environmental-qa-system" target="_blank" rel="noopener noreferrer">Colab Notebook</a></span></div>
 
 			<p>Content-based search engine for artworks from Magic: The Gathering, using OpenAI's CLIP model.</p>
 
-			<p><img src="../images/mtg-art-search-autumnvibes.png" title=""></p>
+			<p><img src="../images/mtg-art-search-autumnvibes-16x9.png" title="query: autumn vibes"></p>
 
-			<p><img src="" title=""></p>
+			<p>CLIP is a model that was pre-trained to encode pairs of images and text descriptions such that their vectors are as close to each other as possible. So to us CLIP as a search engine, we first encode a collection of images, then encode a query string, and finally return the images whose vectors are closest to the query vector. In other words, we can search for images by their content.</p>
 
-			<p></p>
+			<p>For this project, I downloaded all 32,000+ unique card artworks from <i>Magic: The Gathering</i>, created a CLIP encoding vector for each artwork, and used cosine similarity to return the images that most closely matched the query vector.</p>
 
-			<p></p>
+			<p>Example: "stained glass"</p>
+			<p><img src="../images/mtg-art-search/mtg-art-search-stainedglass-16x9.png" title="query: stained glass"></p>
+
+			<p>Example: "winter vibes"</p>
+			<p><img src="../images/mtg-art-search/mtg-art-search-wintervibes-16x9.png" title="query: winter vibes"></p>
+
+			<p>Example: "desolate ruins"</p>
+			<p><img src="../images/mtg-art-search/mtg-art-search-desolateruins-16x9.png" title="query: desolate ruins"></p>
+
+			<p>Example: "fire"</p>
+			<p><img src="../images/mtg-art-search/mtg-art-search-fire-16x9.png" title="query: fire"></p>
 
 			<p></p>
 		</div>
