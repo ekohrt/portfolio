@@ -1,557 +1,292 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
-		<title>Ethan Kohrt</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Projects - Ethan Kohrt Portfolio Site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Black Mud Font (brushstroke) -->
+	<!-- <link href="https://fonts.cdnfonts.com/css/black-mud" rel="stylesheet"> -->
+                
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
 	</head>
-	<body class="is-preload">
+	<body>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar2.jpg" alt="" /></a>
-					<h1><strong>I am Ethan Kohrt</strong>, a creative data scientist with a passion for NLP.<br /></h1>
+		<header id="fh5co-header" role="banner">
+			<div class="container text-center">
+				<div id="fh5co-logo">
+					<h1 style="font-family: 'Times New Roman'; font-size: 15vh;">Ethan Kohrt</h1>
+					<h3 style="font-family: 'Times New Roman'; font-size: 4vh;">Data Scientist & Machine Learning Engineer</h3>
+					<!-- <a href="index.html"><img src="images/logo.png" alt="Present Free HTML5 Bootstrap Template"></a> -->
 				</div>
-			</header>
-
-		<!-- Main -->
-			<div id="main">
-
-				<!-- One -->
-					<!-- <section id="one">
-						<header class="major">
-							<h2>Welcome to my portfolio!<br />
-							</h2>
-						</header>
-						<p>I just completed the Computer Science Master's program at Northwestern University, with a heavy focus on Machine Learning and Natural Language Processing. I love cooking, hiking, books and art.</p>
-					</section> -->
-
-				<!-- Two -->
-					<section id="two">
-						<h2>Machine Learning Projects</h2>
-						<div class="row">
-							
-							<!-- PETROGLYPH DETECTION -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/petroglyph-detection" class="image fit thumb"><img src="images/thumbs/petroglyph_detection.jpg" alt="" /></a>
-								<h3>Petroglyph Detection with YOLOv5</h3>
-								<p>Custom YOLOv5 object detection model trained to detect petroglyphs in an image.</p>
-							</article>
-
-							<!-- MTG IMAGE SEARCH WITH CLIP -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/mtg-art-content-search" class="image fit thumb"><img src="images/thumbs/mtg-art-search-autumnvibes.png" alt="" /></a>
-								<h3>Search Engine for Magic: The Gathering Artwork </h3>
-								<p>A content-based search engine for artworks from Magic: the Gathering, using OpenAI's CLIP model.</p>
-							</article>
-
-							<!-- COMPANY DESCRIPTION CLASSIFIER -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/company-description-classifier" class="image fit thumb"><img src="images/thumbs/cultivaite-2.png" alt="" /></a>
-								<h3>Cleveland Startup Resources Recommender</h3>
-								<p>Uses Sentence-transformer embeddings and sklearn to predict industry tags based on a company's text description. Used for recommending startup resources in Cleveland.</p>
-							</article>
-
-							<!-- QA SYSTEM FOR ENVIRONMENTAL SCIENCE -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/environmental-qa-system" class="image fit thumb"><img src="images/thumbs/env-qa-new.png" alt="" /></a>
-								<h3>Environmental Science QA System</h3>
-								<p>A prototype question-answering system built with Haystack and environment-related Wikipedia articles.</p>
-							</article>
-
-							<!-- MTG DECK HELPER UI -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/mtg-deck-helper-ui" class="image fit thumb"><img src="images/thumbs/mtg_deck_helper_ui.png" alt="" /></a>
-								<!--<h3>Tortor metus commodo</h3>-->
-								<h3><a href="https://github.com/ekohrt/mtg-deck-helper-ui">Deckbuilding Helper for Magic: the Gathering</a></h3>
-								<p>Uses TF-IDF and card co-occurence data to recommend similar cards and auto-complete Magic decks.</p>
-							</article>
-
-							<!-- GPT-2 FABLE GENERATOR -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/fable_generator_gpt2" class="image fit thumb"><img src="images/thumbs/fable_generator.png" alt="" /></a>
-								<h3>GPT-2 Fable Generator</h3>
-								<p>A prompt-engineering experiment using GPT-2 to generate structured fables about any given topic.</p>
-							</article>
-
-							<!-- RECIPE TIME PREDICTION -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/predicting-recipe-time" class="image fit thumb"><img src="images/thumbs/recipe_time_prediction.png" alt="" /></a>
-								<h3>Sklearn: Recipe Time Prediction</h3>
-								<p>An NLP project that predicts the total cooking time of a recipe given the recipe text.</p>
-							</article>
-
-							<!-- STEAM TAG PREDICTION -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/predict-videogame-tags-from-description" class="image fit thumb"><img src="images/thumbs/steam-tags.png" alt="" /></a>
-								<h3>Sklearn: Predicting Steam Tags from Description</h3>
-								<p>An NLP project that assigns tags to video games using their text description.</p>
-							</article>
-
-							<!-- QCAT (BERT) -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/qcat_finetuning" class="image fit thumb"><img src="images/thumbs/qcat.png" alt="" /></a>
-								<h3>Finetuned BERT Classifier for Question Types</h3>
-								<p>A component of a QA system that classifies question types, usng distilBERT as a classifier.</p>
-							</article>
-
-							<!-- RESEARCH: KNOWLEDGE EXTRACTION (BERT) -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/bert-knowledge-extraction-research/blob/main/Improved_Prompt_Generation_for_Knowledge_Retrieval_from_Language.pdf" class="image fit thumb"><img src="images/thumbs/bert_research.png" alt="" /></a>
-								<h3>Research: Knowledge Extraction from BERT</h3>
-								<p>Research paper on improving prompt generation to extract knowlege triples from a BERT language model (unpublished).</p>
-							</article>
-
-							
-
-							
-
-						</div>
-						<!-- <ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul> -->
-
-						
-
-						<h2>Games, Art, Other</h2>
-						<div class="row">
-							<!-- PAI SHO ENGINE -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/vagabond-pai-sho-ai" class="image fit thumb"><img src="images/thumbs/paisho.png" alt="" /></a>
-								<h3>Monte-Carlo AI for Playing Pai Sho</h3>
-								<p>A python engine and AI for the chess-like board game "Vagabond Pai Sho"</p>
-							</article>
-
-							<!-- PAI SHO ENGINE -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://chorus-79ba5.web.app/" class="image fit thumb"><img src="images/thumbs/chorus.png" alt="" /></a>
-								<h3>Chorus: Make Music Online with Friends</h3>
-								<p>A React.js web app for making musical beat loops with friends. Like a combination of Google Docs and GarageBand."</p>
-							</article>
-
-							<!-- GORDON RAMSAY BOT -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="assets\js_project_pages\GordonRamsayBot\index.html" class="image fit thumb"><img src="images/thumbs/gordon_ramsay_bot.png" alt="" /></a>
-								<h3>Gordon Ramsay Chatbot (Tracery)</h3>
-								<p>A humorous Tracery chatbot that guides you through a ridiculous recipe, with insults along the way.</p>
-							</article>
-
-							<!-- JS Bubble Game -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="assets\js_project_pages\Bubble Game JS\index.html" class="image fit thumb"><img src="images/thumbs/bubble_game.png" alt="" /></a>
-								<h3>Simple JS Bubble Game</h3>
-								<p>A basic clicking game made with the P5 library in JavaScript.</p>
-							</article>
-
-							<!-- MTG WORDCLOUDS -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/mtg-wordclouds" class="image fit thumb"><img src="images/thumbs/mtg_wordclouds.png" alt="" /></a>
-								<h3>Magic the Gathering Word Clouds</h3>
-								<p>T-shirt designs made in python using the aggregated text of every card in Magic: the Gathering.</p>
-							</article>
-
-							<!-- DAVINCI NOTEBOOK -->
-							<!-- <article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/davinci_notebook" class="image fit thumb"><img src="images/thumbs/davinci_tree.png" alt="" /></a>
-								<h3>AI-Generated Da Vinci Notebook (MidJourney)</h3>
-								<p>A booklet of AI-generated Da Vinci sketches that I printed as a gift for my dad. True, it's not real art, but it still looked awesome.</p>
-							</article> -->
-
-							
-
-
-							
-						</div>
-
-						<h2>Original Datasets (made by me)</h2>
-						<div class="row">
-							
-							<!-- ENVIRONMENTAL WIKIPEDIA DATASET -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/wikipedia-environmental-articles-dataset" class="image fit thumb"><img src="images/thumbs/env_wikipedia.png" alt="" /></a>
-								<h3>1,397 Environmental Articles from Wikipedia</h3>
-								<p>A collection of environment-related Wikipedia articles for NLP tasks.</p>
-							</article>
-
-							<!-- EMOTICON DATASET -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/emoticon_kaomoji_dataset" class="image fit thumb"><img src="images/thumbs/emoticons.png" alt="" /></a>
-								<h3>62,000 Emoticons/Kaomojis with Labels</h3>
-								<p>Scraped from a variety of sites, hand-labeled with 95 different tags.</p>
-							</article>
-
-							<!-- ANIMAL FACTS -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/animal-fun-facts-dataset" class="image fit thumb"><img src="images/thumbs/animal_facts.png" alt="" /></a>
-								<h3>Animal "Fun Facts" Dataset</h3>
-								<p>Set of 7,734 animal "fun facts" scraped from various sources on the web. Hand-labeled with wikipedia links for added context.</p>
-							</article>
-
-							<!-- MTG DECKLISTS -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/dataset-10000-modern-mtg-decks" class="image fit thumb"><img src="images/thumbs/mtg_decklists.png" alt="" /></a>
-								<h3>10,000 MtG Decklists</h3>
-								<p>A large collection of Magic: the Gathering decklists scraped from Deckstats.net.</p>
-							</article>
-
-							<!-- QUESTION TYPES DATASET (QCAT)-->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/ekohrt/qcat_finetuning/blob/main/data_4.csv" class="image fit thumb"><img src="images/thumbs/question_types.png" alt="" /></a>
-								<h3>Question Types Dataset</h3>
-								<p>Set of 859 questions hand-labeled with their question type.</p>
-							</article>
-						</div>
-					</section>
-
-				
-
-				<!-- Four -->
-				<!--
-					<section id="four">
-						<h2>Elements</h2>
-
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
-
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="col-6 col-12-xsmall">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button primary small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Primary</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button large">Large</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button primary fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button primary disabled">Primary</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
-
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
-										</select>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
-
-					</section>
-				end of section 4 -->
-
+				<nav>
+					<ul>
+						<li><a href="about.html">About</a></li>
+						<li class="active"><a href="index.html">Projects</a></li>
+					</ul>
+				</nav>
 			</div>
+		</header>
+		<!-- END #fh5co-header -->
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://github.com/ekohrt" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.linkedin.com/in/ethan-kohrt/" class="icon brands fa-linkedin"><span class="label">Dribbble</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+		<h1 class="portfolio-heading">Machine Learning & NLP Projects</h1>
+		<hr></hr>
+		<div class="container-fluid pt70 pb70">
+			<div id="fh5co-projects-feed" class="fh5co-projects-feed clearfix masonry">
+				<!-- PETROGLYPH -->
+				<div class="fh5co-project masonry-brick">
+					<a href="individual_project_pages/petroglyph-detection.html">
+						<img src="images/petroglyph_detection.jpg" alt="" width="100%">
+						<h2>Petroglyph Detection with YOLOv5</h2>
+					</a>
 				</div>
-			</footer>
+				<!-- CULTIVAITE -->
+				<div class="fh5co-project masonry-brick">
+					<a href="individual_project_pages/startup-resource-recommender.html">
+						<img src="images/cultivaite-16x9.png" alt="" width="100%">
+						<h2>Startup Resource Recommender System</h2>
+					</a>
+				</div>
+				<!-- ENVIRONMENTAL QA -->
+				<div class="fh5co-project masonry-brick">
+					<a href="individual_project_pages/env-sci-qa-system.html">
+						<img src="images/env-qa-new-16x9.png" alt="" width="100%">
+						<h2>Environmental Science QA System</h2>
+					</a>
+				</div>
+				<!-- MTG ARTWORK SEARCH CLIP -->
+				<div class="fh5co-project masonry-brick">
+					<a href="individual_project_pages/mtg-art-search-clip.html">
+						<img src="images/mtg-art-search-autumnvibes-16x9.png" alt="" width="100%">
+						<h2>Artwork Search Engine with OpenAI's CLIP</h2>
+					</a>
+				</div>
+				<!-- RECIPE TIME PREDICTION -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/predicting-recipe-time">
+						<img src="images/recipe-time-prediction-16x9.png" alt="" width="100%">
+						<h2>Recipe Time Prediction with Scikit-learn</h2>
+					</a>
+				</div>
+				<!-- STEAM TAGS PREDICTION -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/predict-videogame-tags-from-description">
+						<img src="images/steam-tags-16x9.png" alt="" width="100%">
+						<h2>Predicting Video Game Tags from Text</h2>
+					</a>
+				</div>
+				<!-- GPT2 FABLE GENERATOR -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/fable_generator_gpt2">
+						<img src="images/gpt2-fable-generator-16x9.png" alt="" width="100%">
+						<h2>GPT-2 Fable Generator</h2>
+					</a>
+				</div>
+				<!-- MTG DECKBUILDING HELPER -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/mtg-deck-helper-ui">
+						<img src="images/mtg-deck-helper-ui-16x9.png" alt="" width="100%">
+						<h2>AI Deckbuilding Helper for Magic: the Gathering</h2>
+					</a>
+				</div>
+				<!-- YOUTUBE VIDEO SUMMARIZER -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://colab.research.google.com/drive/1vT3FWJ3E_7uCH4A0L9NIDS_ELXjxNgMR?usp=sharing">
+						<img src="images/youtube-summarizer-16x9.png" alt="" width="100%">
+						<h2>Youtube Video Summarizer</h2>
+					</a>
+				</div>
+				<!-- CHICAGO POLICE CPDP -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/chicago-police-misconduct-data-science">
+						<img src="images/chicago-police-data-cpdp-16x9.png" alt="" width="100%">
+						<h2>Investigating Internal Complaints in Chicago Police Data</h2>
+					</a>
+				</div>
+				<!-- BERT KNOWLEDGE EXTRACTION -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/bert-knowledge-extraction-research/blob/main/Improved_Prompt_Generation_for_Knowledge_Retrieval_from_Language.pdf">
+						<img src="images/bert-research-16x9.png" alt="" width="100%">
+						<h2>Research: Extracting Knowledge Tuples from BERT</h2>
+					</a>
+				</div>
+				<!--  -->
+				<!-- <div class="fh5co-project masonry-brick">
+					<a href="single.html">
+						<img src="images/img_11.jpg" alt="" width="100%">
+						<h2>Your Project Title Here</h2>
+					</a>
+				</div> -->
+			</div>
+			<!--END .fh5co-projects-feed-->
+		</div>
+		<!-- END .container-fluid -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<h1 class="portfolio-heading">Games / Art / Misc.</h1>
+		<hr></hr>
+		<div class="container-fluid pt70 pb70">
+			<div id="fh5co-projects-feed" class="fh5co-projects-feed clearfix masonry">
+				<!-- PAI SHO AI -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/vagabond-pai-sho-ai">
+						<img src="images/paisho-16x9.png" alt="" width="100%">
+						<h2>Monte-Carlo AI for Playing Pai Sho</h2>
+					</a>
+				</div>
+				<!-- CHORUS MUSIC APP -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://chorus-79ba5.web.app/">
+						<img src="images/chorus.png" alt="" width="100%">
+						<h2>Chorus: Make Music Online with Friends</h2>
+					</a>
+				</div>
+				<!-- GORDON RAMSAY CHATBOT -->
+				<div class="fh5co-project masonry-brick">
+					<a href="individual_project_pages/js_project_pages/GordonRamsayBot/index.html">
+						<img src="images/gordon_ramsay_bot.png" alt="" width="100%">
+						<h2>Gordon Ramsay Chatbot (Tracery)</h2>
+					</a>
+				</div>
+				<!-- JAVASCRIPT BUBBLE GAME -->
+				<div class="fh5co-project masonry-brick">
+					<a href="individual_project_pages/js_project_pages/Bubble_Game_JS/index.html">
+						<img src="images/bubble_game.png" alt="" width="100%">
+						<h2>Simple JS Bubble Game</h2>
+					</a>
+				</div>
+				<!-- MTG WORD CLOUDS -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/mtg-wordclouds">
+						<img src="images/mtg_wordclouds.png" alt="" width="100%">
+						<h2>Magic the Gathering Word Clouds</h2>
+					</a>
+				</div>
+			</div>
+		</div> <!-- END GAMES/ART/MISC -->
+
+		<h1 class="portfolio-heading">Original Datasets (made by me)</h1>
+		<hr></hr>
+		<div class="container-fluid pt70 pb70">
+			<div id="fh5co-projects-feed" class="fh5co-projects-feed clearfix masonry">
+				<!-- EMOTICON KAOMOJI DATASET -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/emoticon_kaomoji_dataset">
+						<img src="images/emoticons.png" alt="" width="100%">
+						<h2>62,000 Emoticons/Kaomojis with Labels</h2>
+					</a>
+				</div>
+				<!-- ANIMAL FUN FACTS DATASET -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/animal-fun-facts-dataset">
+						<img src="images/animal_facts.png" alt="" width="100%">
+						<h2>Animal "Fun Facts" Dataset</h2>
+					</a>
+				</div>
+				<!-- WIKIPEDIA ENVIRONMENTAL ARTICLES DATASET -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/wikipedia-environmental-articles-dataset">
+						<img src="images/env_wikipedia.png" alt="" width="100%">
+						<h2>1,397 Environmental Articles from Wikipedia</h2>
+					</a>
+				</div>
+				<!-- MTG DECKLIST DATASET -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/dataset-10000-modern-mtg-decks">
+						<img src="images/mtg_decklists.png" alt="" width="100%">
+						<h2>10,000 MtG Decklists</h2>
+					</a>
+				</div>
+				<!-- QCAT QUESTION TYPES DATASET -->
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/ekohrt/qcat_finetuning/blob/main/data_4.csv">
+						<img src="images/question_types.png" alt="" width="100%">
+						<h2>Question Types Dataset</h2>
+					</a>
+				</div>
+			</div>
+		</div> <!-- END DATASETS -->
+
+		<footer id="fh5co-footer" role="contentinfo">
+			<div class="container-fluid">
+				<div class="footer-content">
+					Ethan Kohrt
+					<div class="social">
+						<a href="https://github.com/ekohrt"><i class="icon-github2"></i></a>
+						<a href="https://www.linkedin.com/in/ethan-kohrt/"><i class="icon-linkedin2"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- END #fh5co-footer -->
+		
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- masonry -->
+	<script src="js/jquery.masonry.min.js"></script>
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
 
 	</body>
 </html>
+
